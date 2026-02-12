@@ -6,9 +6,9 @@ layout: default
 # 📄 Summary of All Pages
 
 <ul>
-  {% assign pages = site.pages
+  {% assign pages = https://github.com/pinapalmieri/NEOLink-Images/wiki.pages
       | where_exp: "p", "p.url != '/404.html'"
-      | where_exp: "p", "p.url != '/index.html'"
+      | where_exp: "p", "p.url != '/https://github.com/pinapalmieri/NEOLink-Images/wiki/Introduction.html'"
       | sort: "url" %}
 
   {% for p in pages %}
